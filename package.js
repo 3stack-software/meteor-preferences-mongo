@@ -1,6 +1,6 @@
 Package.describe({
   name: '3stack:preferences-mongo',
-  version: '1.1.0',
+  version: '1.1.1',
   summary: 'A preference store to use with 3stack:preferences',
   git: 'https://github.com/3stack-software/meteor-preferences-mongo',
   documentation: 'README.md'
