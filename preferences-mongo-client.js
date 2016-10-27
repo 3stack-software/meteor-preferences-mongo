@@ -9,7 +9,6 @@ Tracker.autorun(function(c){
 
   Meteor.subscribe('3stack:preferences-mongo', userId, function(){
     if (Meteor.userId() == userId) {
-      console.log('Preferences sub ready for ' + userId);
       isReady.set(true)
     }
   });
